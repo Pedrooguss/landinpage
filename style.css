@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+}
+
+.parent{
+    display: flex;
+}
+
+.sidebar{
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    background-color: red;
+    
+}
+
+.menu{
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+    left: 55px;
+
+}
+
+.menu a{
+
+opacity: 0.4;
+    font-size: 10px;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+}
+
+.menu a.selected{
+    opacity: 1;
+}
+
+.content{
+    position: absolute;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 3%;
+}
+
+section.descricao{
+    position: relative;
+    top: 50%;
+    transform:translateY(-50%) ;
+}
+
+section.descricao h1{
+    color: #343a40;
+    font-size: 46px;
+}
+
+section.descricao h1 > span{
+    color:red;
+}
+
+section.descricao h3 > span{
+    color: red;
+}
+
+section.descricao p > span{
+    color: blue;
+}
+
+img{
+    background-size: 5000px;
+}
+
+section.descricao h4 > span{
+    color: blue;
+    font-size: 25px;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: red;
+    width: 100%;
+    height: 10%;
+}
+
+    
+.logo,.socias {
+    width: 25%;
+}
+
+.menu,a{
+    width: 50%;
+}
+
+.sociais button{
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(45deg, red, #ff0000);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+    top: 8px;
+    left: -243%;
+    
+}
+
+.sociais button i{
+    color: white;
+    position: relative;
+    font-size: 30px;
+    
+}
+
+
+
+
+
